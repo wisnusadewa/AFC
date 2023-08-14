@@ -5,6 +5,7 @@ import halal from '../assets/images/halal-hd.png';
 import subarashi_bronze from '../assets/images/subarashi-bronze-hd.png';
 import subrashi_sertifikat from '../assets/images/subarashi-sertifikat-hd.png';
 import utsukushhi from '../assets/images/product-utsukushhi-hd.png';
+import ManfaatSubarashi from './manfaatSubarashi';
 
 // image sop subarashi
 import fruit from '../assets/images/komp_subarashi/ing-fruit-hd.png';
@@ -23,6 +24,7 @@ import lactic from '../assets/images/komp_utsukushhii/ing-lactic-acid-hd.png';
 import kiwised from '../assets/images/komp_utsukushhii/ing-kiwised-hd.png';
 import collagen from '../assets/images/komp_utsukushhii/ing-fish-collagen-hd.png';
 import bifido from '../assets/images/komp_utsukushhii/ing-bifido-hd.png';
+import ManfaatUtsukushhi from './manfaatUtsukushhi';
 
 const Product = () => {
   return (
@@ -77,6 +79,12 @@ const Product = () => {
           </div>
         </div>
 
+        <div>
+          <ManfaatSubarashi />
+        </div>
+
+        {/* ============== */}
+
         {/* KANDUNGAN PRODUCT UTSUKUSHHI */}
         <div className="flex items-center justify-center bg-yellow-300 mb-10 h-10">
           <h1 className="text-[16px] font-bold">Kandungan Product Utsukushhii</h1>
@@ -99,6 +107,10 @@ const Product = () => {
             <img src={collagen} alt="" />
             <img src={bifido} alt="" />
             <img src={glutathione} alt="" />
+          </div>
+
+          <div>
+            <ManfaatUtsukushhi />
           </div>
         </div>
       </div>
